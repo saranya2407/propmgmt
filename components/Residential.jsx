@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import EditIcon from '@mui/icons-material/Edit';
 import Search from './Search';
 import './Residential.css';
 
@@ -23,7 +22,6 @@ function Residential({ properties }) {
                             <p>{property.address}</p>
                             <p>{property.description}</p>
                         </div>
-                        <EditIcon className="editIcon" />
                     </div>
                 ))}
             </div>

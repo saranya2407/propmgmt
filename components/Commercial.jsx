@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import EditIcon from '@mui/icons-material/Edit';
 import Search from './Search';
 import './Commercial.css';
 
@@ -24,7 +23,6 @@ function Commercial({ properties }) {
                             <p>{property.description}</p><br/>
                             <p>{property.status}</p>
                         </div>
-                        <EditIcon className="editIcon" />
                     </div>
                 ))}
             </div>

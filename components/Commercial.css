@@ -1,0 +1,74 @@
+
+Copy code
+.container {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.propertyList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.propertyCard {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33% - 40px);
+    max-width: calc(33% - 40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.propertyCard:hover {
+    transform: scale(1.05);
+}
+
+.propertyDetails {
+    flex-grow: 1;
+}
+
+.propertyDetails h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.propertyDetails p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.editIcon {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.editIcon:hover {
+    color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .propertyCard {
+        flex: 1 1 calc(50% - 40px);
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .propertyCard {
+        flex: 1 1 calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+}

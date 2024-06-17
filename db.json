@@ -1,0 +1,63 @@
+{
+  "commercialProperties": [
+    {
+      "id": "1",
+      "name": "Downtown Office",
+      "owner": "Alice Johnson",
+      "address": "123 Main Street, Cityville",
+      "description": "Modern office space in downtown."
+    },
+    {
+      "id": "2",
+      "name": "Warehouse",
+      "owner": "Bob Smith",
+      "address": "456 Industrial Road, Cityville",
+      "description": "Spacious warehouse with loading dock."
+    },
+    {
+      "id": 3,
+      "type": "commercial",
+      "name": "Eglinton Avenue",
+      "owner": "Daniel",
+      "address": "123 beloved street",
+      "description": "Pharmacy setup with ample space"
+    }
+  ],
+  "residentialProperties": [
+    {
+      "id": "1",
+      "name": "Greenwood Villa",
+      "owner": "John Doe",
+      "address": "123 Maple Street, Springfield",
+      "description": "A beautiful villa with a spacious garden and modern amenities."
+    },
+    {
+      "id": "2",
+      "name": "Sunset Apartments",
+      "owner": "Jane Smith",
+      "address": "456 Elm Street, Springfield",
+      "description": "An apartment complex with stunning sunset views and close to downtown."
+    },
+    {
+      "id": 3,
+      "type": "residential",
+      "owner": "johnson",
+      "address": "2304, Bayside Villa",
+      "description": "Premium home designed for luxury lives"
+    },
+    {
+      "id": 4,
+      "name": "Lakeview Mansion",
+      "owner": "John",
+      "address": "123 Maple Street, Springfield",
+      "description": "A beautiful villa with a spacious garden and modern amenities."
+    },
+    {
+      "id": 5,
+      "name": "Pinecrest Bungalow",
+      "owner": "John",
+      "address": "456 Elm Street, Springfield",
+      "description": "An apartment complex with stunning sunset views and close to downtown."
+    }
+  ]
+}
